@@ -6,8 +6,8 @@ def str_to_bool(val):
     False values are 'n', or 'no'; case-insensitive
     Raises ValueError if 'val' is anything else.
     """
-    true_vals = ['yes', 'y', '']
-    false_vals = ['no', 'n']
+    true_vals = ['yes', 'y', '1']
+    false_vals = ['no', 'n', '0']
     try:
         val = val.lower()
     except AttributeError:
