@@ -18,5 +18,5 @@ def test_str_to_bool_zero():
 
 
 def test_runtimeerror():
-    with pytest.raises(RuntimeError):
+    with pytest.raises(ValueError):
         str_to_bool(None)
