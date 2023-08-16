@@ -25,6 +25,6 @@ class TestClass:
         with open(report_file, "a") as _f:
             _f.write("test 2\n")
 
-    def test_other(self):
+    def test_other_method(self):
         with open(report_file, "a") as _f:
             _f.write("test 3\n")
